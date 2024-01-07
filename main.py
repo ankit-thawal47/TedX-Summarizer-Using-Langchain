@@ -2,7 +2,8 @@ import streamlit as st
 from utils import load_youtube_video, split_text, initialise_llm, initialize_summarize_chain, get_summary,initialise_plan_chain,generate_plan
 from prompts import PROMPT_MAIN,PROMPT_PLANNING,PROMPT_REFINED
 
-openai_api_key="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"
+#openai api needs to be added here
+openai_api_key="xyz"
 
 with st.container():
     st.markdown("""
